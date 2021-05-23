@@ -100,8 +100,13 @@ def numbersToWords():
     elif(MINUTES == 30):
         resultString += " y media"
     else:
-        firstDigit = int((str(MINUTES))[0])
-        secondDigit = int((str(MINUTES))[1])
+        firstDigit = 0
+        secondDigit = 0
+        if(len(str(MINUTES)) == 1):
+            secondDigit = MINUTES
+        else:
+            firstDigit = int((str(MINUTES))[0])
+            secondDigit = int((str(MINUTES))[1])
         resultString += " y " + NUMBERS_LIST[firstDigit][secondDigit]
     
     # Assign period.
