@@ -43,6 +43,11 @@ Basically you just need Python3 installed in your computer. If not the case you 
 * Open the file named HoursFormatTranslation.py or just copy/paste the code there and run the script.
 * End, you should be able to interact with the script.
 
+## Improvements
+
+One of the things I'll change in the script is the usage of regular expressions to validate the format of the time given, it will improve a bit the solution time, in addition it will be shorter and easily to understand.
+I did not implement the algorithm because i don't know in detail how it works.
+
 ## Contact
 
 Fabrizio Alvarado Barquero - faoalv8@gmail.com
